@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.demo-main{
+    .demo-container{
+        .nav{
+            background-color: navy;
+            width: 100%;
+            height: 100px;
+            h1{
+                color: rgb(244, 244, 48);
+                font-size: 250%;
+                padding-left: 850px;
+                padding-top: 15px;
+            }
+            h5{
+                color: white;
+                padding-left: 850px;
+            }
+        }
+        /* option */
+        .options{
+            display: flex;
+            gap: 50px;
+            padding-left: 20px;
+            padding-top: 30px;
+        }
+        /* side by side */
+        .mid{
+            display: flex;
+            gap: 500px;
+            .mid1{
+                padding-left: 30px;
+                margin-top: 50px;
+                .mid11{
+                    display: flex;
+                    gap: 250px;
+                    align-items: center;
+                    p {
+                        color: gray;
+                    }
+                    span{
+                        color: red;
+                    }
+                }
+                .mail{
+                    border: 1px solid orangered;
+                    width: 700px;
+                    height: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .deliv{
+                    .de{
+                        margin-top: 20px;
+                       font-weight: bolder;
+                    }
+                    .tick{
+                        display: flex;
+                        gap: 50px;
+                        margin-top: 20px;
+                        p{
+                            padding-left: 150px;
+                            color: red;
+                        }
+                    }
+                }
+                .ship{
+                   .de{
+                    margin-top: 20px;
+                    font-weight: bolder;
+                   }
+                   input{
+                    margin-top: 20px;
+                    border: 1px solid orangered;
+                    width: 350px;
+                    height: 30px;
+                   }
+                   select{
+                    border: 1px solid orangered;
+                    width: 710px;
+                    height: 30px;
+                    margin-top: 20px;
+                   
+                   }
+                   .ad{
+                    border: 1px solid orangered;
+                    width: 710px;
+                    height: 30px;
+                    margin-top: 20px;
+                    }
+                    .tec{
+                        border: 1px solid orangered;   
+                        width: 233px;
+                        margin-bottom: 10px;
+                    }
+                   
+                }
+                .tec1{
+                    margin-top: 10px;
+                 }
+                .but{
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 370px;
+                    button{
+                        background-color: orangered;
+                        color: white;
+                        width: 250px;
+                        height: 25px;
+                        border: none;
+                    }
+                }
+            }
+            .mid2{
+                .mid21{
+                     display: flex;
+                     align-items: center;
+                }
+                h2{
+                    padding-left: 100px;
+                }
+                .li1{
+                    border-top: 1px solid orangered;
+                    width: 110%;
+                }
+                .imm{
+                    margin-top: 20px;
+                    display: flex;
+                    gap: 20px;
+                    padding-left: 30px;
+                  
+                    img{
+                        width: 150px;
+                    }
+                    .list{
+                        li{
+                            line-height: 25px;
+                            list-style: none;
+                        
+                        }
+                        .qua{
+                            margin-top: 50px;
+                        }
+
+                    }
+                   
+                    
+                    .dot{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                .pri{
+                    margin-top: 20px;
+                    padding-left: 350px;
+                    font-weight: bolder;
+                }
+                .di{
+                    padding-left: 80px;
+                    margin-top: 20px;
+                    display: flex;
+                    gap: 60px;
+                    li{
+                        list-style: none;
+                        line-height: 30px;
+                    }
+                }
+                .end{
+                    display: flex;
+                    gap: 30px;
+                    p{
+                        margin-top: 10px;
+                        font-weight: bolder;
+                        padding-left: 90px;
+                    }
+                }
+                .buyer{
+                    .buy1{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 30px;
+                        img{
+                            width: 30px;
+                        }
+                     }
+                     p{
+                        margin-top: 8px;   
+                        padding-left: 10px;
+                    }
+                }
+                .help{
+                    .help1{
+                        display: flex;
+                        align-items: center;
+                        gap: 2px;
+                        margin-top: 30px;
+                        img{
+                            width: 30px;
+                        }
+                     }
+                     p{
+                        margin-top: 8px;   
+                        padding-left: 10px;
+                    }
+                }
+               
+            }
+
+        }
+        /* Footer */
+        .last{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+            background-color: navy;
+            width: 100%;
+            height: 120px;
+            .la1{
+                display: flex;
+                gap: 25px;
+                justify-content: center;
+                color: white;
+                p{
+                    margin-top: 20px;
+                }
+            }
+            .lf{
+                margin-top: 20px;
+                border-top: 1px solid grey;
+                width: 30%;
+                padding-left: 100px;
+            }
+            p{
+                color: white;
+                margin-top: 20px;
+            }
+        }
+    }
+}
